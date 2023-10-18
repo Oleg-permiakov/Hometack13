@@ -14,5 +14,6 @@ while (nam >= 100 &&  nam < 1000)
     if (nam >= 1000 )
     {
         nam = nam / 10;
+        return;
     }
    
